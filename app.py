@@ -2,8 +2,8 @@ import streamlit as st
 import pickle
 import numpy as np
 
-df=pickle.load(open('/content/df.pkl','rb'))
-pipe = pickle.load(open('/content/pipe.pkl','rb'))
+df=pickle.load(open('df.pkl','rb'))
+pipe = pickle.load(open('pipe.pkl','rb'))
 st.title("Laptop price predictor App")
 st.text("This app is created using the data available on kaggle.")
 st.text("The prediction here is based on the data available, hence might not align with the real-life data")
